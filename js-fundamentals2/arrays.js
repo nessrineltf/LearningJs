@@ -119,4 +119,25 @@ console.log("freindss after pop & shift ",freindss)
 
 // console.log
 
-///// .length , .push("hfhf") , .unshift("hfhfhf") , .pop() , .shif() ...
+
+
+// //// .pop() / .unshift(....) / .push(...) / .shift() / .length / .indexOf(...) /.includes(....) / ... 
+
+
+const yearss = [1900 , 1990 , 2000 , 2002]
+console.log(yearss)
+
+console.log(yearss.indexOf(2000))
+
+const peoples = ["steven" , "15" , "peter"]
+
+// // "===" , "=="
+console.log(peoples.includes("15"))
+
+
+if(peoples.includes("steven")){ //// true or false
+    console.log("steven is in the list")
+}
+else {
+    console.log("steven is not in the list")
+}
